@@ -1,0 +1,7 @@
+amazoncaptcha==0.5.11
+flet==0.24.1
+playsound==1.2.2
+PyAutoGUI==0.9.54
+selenium==4.25.0
+undetected_chromedriver==3.5.5
+setuptools==75.1.0
