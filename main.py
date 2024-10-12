@@ -154,8 +154,8 @@ def main(page: ft.Page):
         page.update()
 
     def update_home():
-        last_updated.value = f"Última actualización: {
-            datetime.now().strftime('%d/%m/%Y - %H:%M:%S')}"
+        last_updated.value = f"""Última actualización: {
+            datetime.now().strftime('%d/%m/%Y - %H:%M:%S')}"""
         if current_page() == "/home":
             go_home()
 

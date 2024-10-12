@@ -2,8 +2,8 @@ def xpath_find_elements_by_text(element, search_strings):
     uppercase_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     lowercase_letters = 'abcdefghijklmnopqrstuvwxyz'
     xpath_conditions = [
-        f"contains(translate(text(), '{uppercase_letters}', '{
-            lowercase_letters}'), '{search.lower()}')"
+        f"""contains(translate(text(), '{uppercase_letters}', '{
+            lowercase_letters}'), '{search.lower()}')"""
         for search in search_strings
     ]
     xpath_expression = f"//{element}[{' or '.join(xpath_conditions)}]"
