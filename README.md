@@ -30,6 +30,7 @@ https://github.com/adri1336/primeshopchecker/releases
 ### Configurar entorno
 ```
 git clone https://github.com/adri1336/primeshopchecker.git
+cd primeshopchecker/
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
